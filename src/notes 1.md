@@ -2,7 +2,8 @@ Status: fixing paragraph detection for skewed pages (the front-matter page drift
 
 I made 13 semantic HTML files, one per PDF, and none of them has been proofread. The text is only as clean as the PDFs' existing OCR, so expect errors, and I didn't check the output page by page against the PDFs.
 
-Each file uses `<article>`, `<header>`, `<section>`, headings, paragraphs and lists. Quoted passages are `<blockquote>`, and the footnotes sit at the end as an ordered list in a section marked `role="doc-endnotes"`.
+Each file uses `<article>`, `<header>`, `<section>`, headings, paragraphs and lists. Quoted passages are `
+<blockquote>`, and the footnotes sit at the end as an ordered list in a section marked `role="doc-endnotes"`.
 
 - **01-acknowledgments-and-preface**: has Acknowledgments, Preface, a Note on Transliteration subsection, and footnotes 1–3.
 - **02-glossary**: a definition list of 167 abbreviations. I re-OCR'd these four pages, because the text layer scrambled the columns.
